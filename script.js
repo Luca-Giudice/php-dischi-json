@@ -1,7 +1,7 @@
 const {createApp} = Vue;
 const apiUrl = 'api/discs/';
 
-createApp({
+const app = createApp({
     data: () {
         return{
             discs: []
